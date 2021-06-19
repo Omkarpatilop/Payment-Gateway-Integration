@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareClub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+   <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo">CareClub</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links" id="about-page">About</a>
+            </li>
+            
+            <li class="navbar__btn">
+              <a href="#home" class="button" id="Donate">Donate Now</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+   <!--Home Section  -->
+
+      <div class="main" id="home">
+        <div class="main__container">
+          <div class="main__content">
+            <h2>MALNUTRITION IS A KILLER</h2>
+            <p>BUT YOU CAN BE A RAY OF HOPE FOR THIS CHILDREN</p>
+            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HOk8agZ5hKySwU/view" data-text="Donate Now" data-color="#528FF0" data-size="large"
+            id=razorbtn>
+              <script>
+                (function(){
+                  var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                  if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                  s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                  rzp && rzp.init && rzp.init()}})();
+              </script>
+            </div>
+                
+          </div>
+          <div class="main__img--container">
+            <div class="iframe-container" >
+              <iframe src="https://www.youtube.com/embed/xu8O9loVd3E?start=00&end=23&autoplay=1&showinfo=0&rel=0&fs=0" width="560" height="315" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+   <!-- About Us -->
+      <div class="main" id="about">
+        <div class="main__container">
+          <div class="slider-box">
+            <div id="slider">
+            
+              <img  src="../img/img1.jpg" >
+              <img  src="../img/img2.jpg" >
+              <img  src="../img/img3.jpg" >
+              <img  src="../img/img4.jpg" >
+              <img  src="../img/img5.jpg" >
+            
+            </div>
+            
+            <div class="indicators">
+              <span id="btn1" class="actv"></span>
+              <span id="btn2"></span>
+              <span id="btn3"></span>
+              <span id="btn4"></span>
+              <span id="btn5"></span>
+            </div>
+          </div>
+          <div class="main__content">
+            <h1>What do we do?</h1>
+            <h2>We save children from Malnutrition</h2>
+            <p>If you have any questions about your donation or our work, please contact us, we promise to reply as soon as we can</p>
+            <button class="main__btn"><a href="contact.html">Contact US</a></button>
+          </div>
+        </div>
+      </div>
+
+       <!-- Footer Section -->
+    <div class="footer__container">
+
+        <section class="social__media">
+          <div class="social__media--wrap">
+            
+            <p class="website__rights">&copy 2021. Made by Omkar Patil <br> The Sparks Foundation</p>
+  
+          <div class="footer__about">
+              <a href="#about" >About us</a>
+  
+              <a href="contact.html" >Contact us</a>
+  
+              <a href="https://portal.termshub.io/main.html/website_tos/" >Terms & Conditions</a>
+  
+              <a href="https://portal.termshub.io/main.html/privacy_policy/" >Privacy policy</a>
+  
+            </div> 
+  
+  
+            <div class="social__icons">
+              
+              <a href="https://www.instagram.com/thesparksfoundation.info/?hl=en" class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              
+              <a href="https://www.linkedin.com/company/the-sparks-foundation/" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/" class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+      <!-- Cookie Consent -->
+     <div class="cookie-container">
+        <p>
+          We use cookies in this website to give you the best experience on our
+          Website. To find out more, read our
+          <a href="https://portal.termshub.io/main.html/privacy_policy/">Privacy policy</a> and <a href="https://portal.termshub.io/main.html/website_tos/">Terms & Conditions</a>.
+        </p>
+  
+        <button class="cookie-btn">
+          I Understand
+        </button>
+      </div> 
+      
+      <script src="app.js"></script>
+
+</body>
+</html>
